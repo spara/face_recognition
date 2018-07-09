@@ -41,9 +41,6 @@ RUN cd ~ && \
     mkdir unknown && \
     chmod 777 known && \
     chmod 777 unknown
-#RUN cd ~ && \
-#    cd  dlib/ && \
-#    python3 setup.py install --yes USE_AVX_INSTRUCTIONS --no DLIB_USE_CUDA 
 
 RUN pip install face_recognition
 
